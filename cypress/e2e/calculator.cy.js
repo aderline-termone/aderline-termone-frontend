@@ -8,7 +8,7 @@ describe('calculator', function () {
       cy.get('#plus').click();
       cy.get('#key2').click();
       cy.get('#equals-key').click();
-      cy.get('#result').should('have.value', '3');
+      cy.get('#result').should('have.text', '3');
   });
 
   it('should subtract two numbers', function () {
@@ -16,7 +16,7 @@ describe('calculator', function () {
       cy.get('#minus').click();
       cy.get('#key3').click();
       cy.get('#equals-key').click();
-      cy.get('#result').should('have.value', '2')
+      cy.get('#result').should('have.text', '2')
   });
 
   it('should multiply two numbers', function () {
@@ -24,7 +24,7 @@ describe('calculator', function () {
       cy.get('#multiply').click();
       cy.get('#key4').click();
       cy.get('#equals-key').click();
-      cy.get('#result').should('have.value', '20')
+      cy.get('#result').should('have.text', '20')
   });
 
   it('should divide two numbers', function () {
@@ -32,7 +32,7 @@ describe('calculator', function () {
       cy.get('#divide').click();
       cy.get('#key4').click();
       cy.get('#equals-key').click();
-      cy.get('#result').should('have.value', '4')
+      cy.get('#result').should('have.text', '2')
   });
 
   afterEach(function () {

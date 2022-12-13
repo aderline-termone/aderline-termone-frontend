@@ -14,6 +14,10 @@ Users should be able to:
 
 ![](./design/desktop-preview.PNG)
 
+### All tests running
+
+![](./design/tests-running.PNG)
+
 ## My process
 
 ### Built with
