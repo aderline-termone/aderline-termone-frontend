@@ -1,4 +1,3 @@
-
 const Keypad = (props) => {
   return (
     <section className="keypad">
@@ -11,41 +10,68 @@ const Keypad = (props) => {
       >
         7
       </button>
-      <button className="key" value="8" onClick={() => props.updateCalc("8")}>
+      <button
+        id="key8"
+        className="key"
+        value="8"
+        onClick={() => props.updateCalc("8")}
+      >
         8
       </button>
-      <button className="key" value="9" onClick={() => props.updateCalc("9")}>
+      <button
+        id="key9"
+        className="key"
+        value="9"
+        onClick={() => props.updateCalc("9")}
+      >
         9
       </button>
       <button className="del" id="del" onClick={props.del}>
         DEL
       </button>
-      <button className="key" value="4" onClick={() => props.updateCalc("4")}>
+      <button
+        id="key4"
+        className="key"
+        value="4"
+        onClick={() => props.updateCalc("4")}
+      >
         4
       </button>
-      <button className="key" value="5" onClick={() => props.updateCalc("5")}>
+      <button
+        id="key5"
+        className="key"
+        value="5"
+        onClick={() => props.updateCalc("5")}
+      >
         5
       </button>
-      <button className="key" value="6" onClick={() => props.updateCalc("6")}>
+      <button
+        id="key6"
+        className="key"
+        value="6"
+        onClick={() => props.updateCalc("6")}
+      >
         6
       </button>
       <button
+        id="plus"
         className="operator"
         value="+"
         onClick={() => props.updateCalc("+")}
       >
         +
       </button>
-      <button className="key" value="1" onClick={() => props.updateCalc("1")}>
+      <button id="key1" className="key" value="1" onClick={() => props.updateCalc("1")}>
         1
       </button>
-      <button className="key" value="2" onClick={() => props.updateCalc("2")}>
+      <button id="key2" className="key" value="2" onClick={() => props.updateCalc("2")}>
         2
       </button>
-      <button className="key" value="3" onClick={() => props.updateCalc("3")}>
+      <button id="key3" className="key" value="3" onClick={() => props.updateCalc("3")}>
         3
       </button>
       <button
+       id="minus"
         className="operator"
         value="-"
         onClick={() => props.updateCalc("-")}
@@ -55,10 +81,11 @@ const Keypad = (props) => {
       <button className="key" value="." onClick={() => props.updateCalc(".")}>
         .
       </button>
-      <button className="key" value="0" onClick={() => props.updateCalc("0")}>
+      <button  id="key0" className="key" value="0" onClick={() => props.updateCalc("0")}>
         0
       </button>
       <button
+       id="divide"
         className="operator"
         value="/"
         onClick={() => props.updateCalc("/")}
@@ -66,6 +93,7 @@ const Keypad = (props) => {
         /
       </button>
       <button
+       id="multiply"
         className="operator"
         value="x"
         onClick={() => props.updateCalc("*")}

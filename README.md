@@ -1,38 +1,18 @@
-# Frontend Mentor - Calculator app
+# Exam Term One - Calculator app
 
-This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
-# Table of contents
-
-- [Frontend Mentor - Calculator appt page solution](#frontend-mentor---calculator-app)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-  - [Author](#author)
-
-
+#Author Aderline Gashugi
 ## Overview
 
-### The challenge
+### The question
 
 Users should be able to:
 
-- See the size of the elements adjust based on their device's screen size
 - Perform mathematical operations like addition, subtraction, multiplication, and division
-- Adjust the color theme based on their preference
-- Bonus: Have their initial theme preference checked using prefers-color-scheme and have any additional changes saved in the browser
+- The system should be tested 
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
-
-### Links
-
-- Live Site URL: [Add live site URL here](https://monicatvera.github.io/calculator/)
+![](./design/desktop-preview.PNG)
 
 ## My process
 
@@ -42,7 +22,7 @@ Users should be able to:
 - [Vite](https://vitejs.dev/) - framework
 - [Styled Components](https://styled-components.com/) - Styled Components
 
-## Author
+### Built with
 
-- Mónica Ilenia Tardón Vera - [@monicatvera](https://github.com/monicatvera)
-- Frontend Mentor - [@monicatvera](https://www.frontendmentor.io/profile/monicatvera)
+- To run it type npm start
+- To run tests type npx cypress open
